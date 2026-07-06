@@ -98,6 +98,3 @@ GET /Weather/forecast?city={city}&Day={days}
 - The `weatherRespons` key name is intentionally kept as-is to match the current API response — rename on both ends together if you clean this up later.
 - If the API call fails, the dashboard silently falls back to hardcoded sample data for Agra rather than leaving the screen blank — useful for demos, but worth surfacing more visibly in production so it isn't mistaken for live data.
 
-## 📄 License
-
-MIT — adjust as needed for your project.
